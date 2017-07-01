@@ -102,7 +102,7 @@ tf.app.flags.DEFINE_string(
     'The threshold for what messages will be logged DEBUG, INFO, WARN, ERROR, '
     'or FATAL.')
 setattr(FLAGS, 'config', 'chord_pitches_improv')
-setattr(FLAGS, 'bundle_file', '/home/peter/Projects/magenta/bundles/chord_pitches_improv.mag')
+setattr(FLAGS, 'bundle_file', 'trained_models/chord_pitches_improv.mag')
 
 
 def get_bundle():

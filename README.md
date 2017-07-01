@@ -24,7 +24,7 @@ Get or train your own magenta model. The easiest thing is to just download one f
 
 Have that point to the .mag file you downloaded. Use the full path, and make sure this line of code is commented out:
 
-    setattr(FLAGS, 'run_dir', 'logdir/20000')
+    setattr(FLAGS, 'run_dir', 'trained_models/20000')
 
 ## Setup with Docker
 
