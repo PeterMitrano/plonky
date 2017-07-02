@@ -15,6 +15,8 @@ def main(argv=None):
     args = parser.parse_args()
 
     ff = FitnessFunction(bundle_file=args.bundle_file)
+    fitness = ff.evaluate_fitness()
+    print(fitness)
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv))
